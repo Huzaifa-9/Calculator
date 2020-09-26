@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(29, 127, 184) !important;
+}
+.main1{
+    background: linear-gradient(65deg, #a176f1, #12a8e4,rgba(0,0,0,600)) !important;
+    width:400px;
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 1em;
+    padding: 1px;
+    margin:6em auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.9), 0 6px 6px rgba(0,0,0,0.53);
+}
+.btn2{
+    display: flex;
+    justify-content: space-around ;
+    margin: 2px ;
+}
+.in{
+    border-radius: 1em;
+    padding: 2px;
+    margin-top: 1em;
+}
+input{
+    /* margin-top: 2em; */
+    width: 100%;
+    border-radius: 3em !important;
+    font-size: 2em !important; 
+    text-indent: 20px;
+}
+.clearbtn{
+    background-color: white;
+    border-radius: 9px !important;
+    padding: 4px !important;
+    width: 98% !important;
+    margin: 5px auto 3px auto !important;
+}
+.btn1{
+    background-color: white;
+    border-radius: 9px !important;
+    padding: 5px;
+    width: 23%;
+    height: 4em;
+}
+.halfbtn1{
+    background-color: white;
+    border-radius: 9px !important;
+    padding: 5px;
+    width: 47%;
+    height: 4em;
+}
+.halfbtn1:hover , .btn1:hover ,.clearbtn:hover{
+    background: rgb(189, 185, 185);
+    box-shadow:4px 1px rgba(0, 0, 0, 0.966);
+}
+.halfbtn1:active , .btn1:active ,.clearbtn:active{
+    background: rgb(0, 0, 0,0.4);
+}
+
+@media only screen and (max-width: 500px) {
+    .main1{
+        width:350px;
+        height:fit-content;
+    }
+}
